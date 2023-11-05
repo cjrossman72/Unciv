@@ -1,17 +1,17 @@
 [
 	{
-		"name": "Phasers",
+		"name": "Hiking Pug",
 		"unitType": "Ranged",
 		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"replaces": "Archer",
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 36,
 		"range": 2,
 		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
+		"requiredTech": "Archery",
+		"requiredResource": "Horses",
+		"promotions": ["Drill I","Drill II"],
 		"attackSound": "phasers"
 	}
 ]
