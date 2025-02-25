@@ -93,7 +93,7 @@
      "uniques": [
                  "Gain [50]-[100] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available <after [30] turns>"
+                 "Only available <after turn number [30]>"
                 ], 
   },*/
   { 
@@ -103,7 +103,7 @@
      "uniques": [
                  "Gain [100]-[200] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available <after [30] turns>"
+                 "Only available <after turn number [30]>"
                 ], 
   },
   { 
@@ -113,7 +113,7 @@
      "uniques": [
                  "Gain [150]-[300] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available <after [30] turns>"
+                 "Only available <after turn number [30]>"
                 ], 
   },
   { 
@@ -123,7 +123,7 @@
      "uniques": [
                  "Gain [200]-[400] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available <after [30] turns>"
+                 "Only available <after turn number [30]>"
                 ], 
   },
   { 
@@ -133,7 +133,7 @@
      "uniques": [
                  "Gain [250]-[500] [Culture]", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available <after [30] turns>"
+                 "Only available <after turn number [30]>"
                 ], 
   },
 //Faith
@@ -142,7 +142,7 @@
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
      "weight": 8
      "uniques": [
-                 "Hidden when religion is disabled", 
+                 "Only available <when religion is enabled>", 
                  "Only available <before founding a Pantheon>", 
                  "Gain [2]-[3] [Faith]"
                  ],
@@ -152,7 +152,7 @@
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
      "weight": 7
      "uniques": [
-                 "Hidden when religion is disabled", 
+                 "Only available <when religion is enabled>", 
                  "Only available <before founding a Pantheon>", 
                  "Gain [3]-[5] [Faith]"
                  ],
@@ -162,7 +162,7 @@
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
      "weight": 6
      "uniques": [
-                 "Hidden when religion is disabled", 
+                 "Only available <when religion is enabled>", 
                  "Only available <before founding a Pantheon>", 
                  "Gain [5]-[8] [Faith]"
                  ],
@@ -172,7 +172,7 @@
      "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
      "weight": 5
      "uniques": [
-                 "Hidden when religion is disabled", 
+                 "Only available <when religion is enabled>", 
                  "Only available <before founding a Pantheon>", 
                  "Gain enough Faith for a Pantheon", 
                  ],
@@ -182,9 +182,9 @@
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
      "weight": 7
      "uniques": [
-                 "Hidden when religion is disabled", 
+                 "Only available <when religion is enabled>", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available <after [20] turns>",
+                 "Only available <after turn number [20]>",
                  "Gain enough Faith for [25]% of a Great Prophet"
                  ],
   },*/
@@ -193,9 +193,9 @@
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
      "weight": 6
      "uniques": [
-                 "Hidden when religion is disabled", 
+                 "Only available <when religion is enabled>", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available <after [20] turns>",
+                 "Only available <after turn number [20]>",
                  "Gain enough Faith for [40]% of a Great Prophet"
                  ],
   },
@@ -204,9 +204,9 @@
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
      "weight": 5
      "uniques": [
-                 "Hidden when religion is disabled", 
+                 "Only available <when religion is enabled>", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available <after [20] turns>",
+                 "Only available <after turn number [20]>",
                  "Gain enough Faith for [60]% of a Great Prophet"
                  ],
   },
@@ -215,9 +215,9 @@
      "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
      "weight": 4
      "uniques": [
-                 "Hidden when religion is disabled", 
+                 "Only available <when religion is enabled>", 
                  "Only available <after founding a Pantheon>", 
-                 "Only available <after [20] turns>",
+                 "Only available <after turn number [20]>",
                  "Gain enough Faith for [100]% of a Great Prophet", 
                  ],
   },
@@ -276,7 +276,7 @@
      "weight": 5 //was 6
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Classical era]",
-//                 "Only available after [60] turns", //this is a stopgap 
+//                 "Only available <after turn number [60]>", //this is a stopgap 
                  "Only available <starting from the [Classical era]>"
                 ]         
   }, 
@@ -286,7 +286,7 @@
      "weight": 4 //was 5
      "uniques": [
                  "[1] free random researchable Tech(s) from the [Medieval era]",
-//                 "Only available after [90] turns"//because "Only available" doesn't work 
+//                 "Only available <after turn number [90]>"//because "Only available" doesn't work 
                  "Only available <starting from the [Medieval era]>"
                 ]         
   }, 
